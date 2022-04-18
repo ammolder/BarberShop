@@ -1,0 +1,30 @@
+.page-social__link {
+  color: var(--special-color);
+  letter-spacing: 0.2em;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+.hero__top-text {
+  color: var(--transparent-color);
+}
+.hero__title {
+  font-size: 72px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+
+  color: var(--primary-text-color);
+}
+.hero__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+
+  color: var(--text-color);
+}
+.hero__slide {
+  text-align: right;
+}

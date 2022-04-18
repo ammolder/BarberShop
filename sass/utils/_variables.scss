@@ -1,40 +1,69 @@
 :root {
-  --title-text-color: #212121;
-  --primari-text-color: #757575;
-  --primari-white-color: #ffffff;
-  --accent-color: #2196f3;
-  --hero-bgrcolor: #2f303a;
-  --hero-bg-shadow: #191c2633;
-  --bg-text-work: #2f303acc;
-  --bg-second: #f5f4fa;
-  --contact-footer: #ffffff99;
-  --bg-icon-footer: #ffffff0a;
-  --hover-btn-hero: #188ce8;
-  --br-project__box: #eeeeee;
-  --bg-icon: #afb1b8;
-  --bg-overflay: #2196f3e5;
-  --form-text-color: #75757580;
-  --modal__input--br: #21212133;
-  --br-email-footer: #ffffff4d;
+  --primary-page-color: #ffffff;
+  --primary-text-color: #ffffff;
+  --accent-color: #ff6c00;
+  --transparent-color: #9da4bd99;
+  --text-color: #9da4bd;
+  --special-color: #303030;
+  --paragraph-color: #555555;
+  --form-color: ##9da4bd66;
+  --form-contact-bg: #191c26;
+  --hero-shadow: #191c2633;
+  --price-bg: #111319;
+  --price1-gradient100: #171a24;
+  --price-gradient20: #171a2433;
+  --price2-gradient100: #090b13;
+  --price2-gradient20: #090b1333;
+  --bg-feature-price-footer: #f7f7f7;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 $logo-font: Raleway, sans-serif;
-$base-font: Roboto, sans-serif;
+$base-font: Open Sans, sans-serif;
 
-$font-paragraph: 14px;
-$font-title: 36px;
-$font-medium: 16px;
+$font-paragraph: 11px;
+$font-medium: 18px;
+$font-title: 42px;
 
 .page {
-  background-color: var(--primari-white-color);
-  color: var(--primari-text-color);
+  background-color: #d7c1c1;
+  color: var(--special-color);
 
   font-family: $base-font;
-  font-weight: 400;
+  font-weight: 600;
   font-size: $font-paragraph;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+}
+.button {
+  border-color: var(--accent-color);
+  border-radius: 25px;
+  background-color: transparent;
+  color: var(--primary-text-color);
+
+  font-family: $base-font;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.49;
+  letter-spacing: 0.09em;
+  text-align: center;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+.title {
+  font-family: $logo-font;
+  font-size: 42px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.05em;
+}
+.primary-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
 }
 
 ul {
@@ -53,8 +82,9 @@ img {
 a {
   text-decoration: none;
 }
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  text-align: center;
+h1,
+h2,
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }

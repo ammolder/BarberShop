@@ -1,0 +1,21 @@
+.header {
+  // color: var(--primary-text-color);
+  font-size: 12px;
+  line-height: 1.49;
+}
+.site-nav__link {
+  color: var(--primary-text-color);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+.header__link {
+  color: var(--primary-text-color);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}

@@ -25,7 +25,14 @@ $font-paragraph: 11px;
 $font-medium: 18px;
 $font-title: 42px;
 
+$mobile: 480px;
+$tablet: 768;
+$desktop: 1200px;
 .page {
+  position: relative;
+  width: 1200px;
+  padding: 0 15px;
+
   background-color: #d7c1c1;
   color: var(--special-color);
 
@@ -34,6 +41,21 @@ $font-title: 42px;
   font-size: $font-paragraph;
   line-height: 1.36;
   letter-spacing: 0.1em;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+
+  @media screen and (max-width: 767px) {
+    width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
 }
 .button {
   border-color: var(--accent-color);

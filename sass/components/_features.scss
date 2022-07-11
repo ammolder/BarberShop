@@ -9,3 +9,26 @@
 .feature__text {
   color: var(--paragraph-color);
 }
+.feature__list {
+  display: flex;
+  @media screen and (min-width: 480px) {
+    background-color: green;
+  }
+}
+.feature__item {
+  width: 194px;
+  height: 133px;
+}
+.feature__number {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+.feature__information {
+  margin: 0 auto;
+  width: 122px;
+}
+.feature__information--width {
+  width: 150px;
+}

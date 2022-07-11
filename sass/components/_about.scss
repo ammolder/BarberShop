@@ -1,11 +1,35 @@
+.about__container {
+  display: flex;
+  padding-top: 140px;
+  padding-bottom: 120px;
+}
+.about__list {
+  display: flex;
+
+  & li + li {
+    margin-left: 30px;
+  }
+}
+.about__box-text {
+  margin-left: 64px;
+}
+.about__top-text {
+  margin-bottom: 20px;
+}
+.about__title {
+  margin-bottom: 20px;
+}
 .about__text {
+  margin-bottom: 20px;
+
   color: var(--paragraph-color);
 }
 .about__bottom-text {
+  margin-bottom: 40px;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.86;
-  letter-spacing: 0.2em;
-
+  letter-spacing: 0.02em;
   color: var(--paragraph-color);
 }

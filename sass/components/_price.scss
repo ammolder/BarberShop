@@ -1,12 +1,31 @@
+.price {
+  width: 1280px;
+  height: 720px;
+  background: var(--price-bg);
+  background-image: url(../../image/price.jpg);
+}
+.price__container {
+  padding: 130px 0;
+}
 .price__text {
+  // margin-top: 230px;
+  margin-bottom: 20px;
   color: var(--transparent-color);
 }
 .price__title {
+  margin-bottom: 44px;
   color: var(--primary-text-color);
 }
+.price__box {
+  display: flex;
+}
 .price__list-one {
+  width: 585px;
+  height: 240px;
   color: var(--text-color);
 }
 .price__list-two {
+  width: 585px;
+  height: 240px;
   color: var(--text-color);
 }

@@ -4,3 +4,8 @@
 .form__text {
   color: var(--form-color);
 }
+.form__comment {
+  &::placeholder {
+    color: var(--special-color);
+  }
+}
